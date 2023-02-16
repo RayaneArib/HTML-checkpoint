@@ -13,7 +13,7 @@
 
 header {
   margin: 0 auto;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 
@@ -49,6 +49,7 @@ nav li a:hover {
 
 
 
+/* am here */
 
 .hero-image {
   background-image: url("/res/macbook2-dribbble_4x.webp");
@@ -66,7 +67,7 @@ nav li a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -245,3 +246,21 @@ body {
     display: flex;
     justify-content: right;
   }
+
+
+
+  .top-page {
+    position: sticky;
+    top: 785px;
+  }
+
+
+
+
+@media screen and (max-width:1300px){
+  .top-page {
+    position: sticky;
+    top: 700px;
+  }
+}
+
